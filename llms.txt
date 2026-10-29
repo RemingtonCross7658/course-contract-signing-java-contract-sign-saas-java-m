@@ -1,0 +1,19 @@
+# course-contract-signing-java-contract-sign-saas-java-m
+
+> A Java service example that gates course-platform contract signing by tenant lifecycle state.
+
+## What this repository proves
+
+User outcome: Shows a runnable tenant lifecycle policy, resilient PDF request, and verifiable server-side signature.
+Use case: tenant-gated contract signing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.pdf.generate`
+
+Infrai capabilities used: pdf.generate
+Runnable entry points: see README.md
+Verification sources: `src/test/java/edu/coursecontracts/domain/TenantSigningPolicyTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

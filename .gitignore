@@ -1,0 +1,5 @@
+*.class
+*.p12
+*.pdf
+*.sig
+.env
